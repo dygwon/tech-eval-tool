@@ -26,20 +26,18 @@
         "allowExpressions": true
       }
     ],
-    "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
-    "import/extensions": [
+    "react/jsx-filename-extension": [
       "error",
-      "ignorePackages",
-      {
-        "ts": "never",
-        "tsx": "never"
-      }
+      { "extensions": [".js", ".jsx", ".tsx", ".ts"] }
     ],
-    "max-len": ["warn", { "code": 80 }],
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "max-len": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "import/prefer-default-export": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "linebreak-style": ["error", "windows"]
   },
   "settings": {
     "import/resolve": {
